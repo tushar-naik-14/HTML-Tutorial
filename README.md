@@ -1,2 +1,2 @@
 # HTML-Tutorial
-A HTML Repo containing all the programs that helped me learn Hypertext Markup Language
+A Repository containing all the programs that helped me learn HTML (Hypertext Markup Language)
