@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tushar Naik">
+    <meta name="description" content="This page contains all the things I am implementing to learn.">
+    <title>My First Webpage</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <!--Only one h1 in whole webpage. h1 has the most importance and h6 has the least-->
+    <h1>My Goals for January 2023</h1>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li>
+                <!--Internal Reference (Used to access different sections in the web page.)-->
+                <a href="#html">Learn HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a Vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <h2>I'm ready to learn HTML.</h2>
+        <p>This is my first web page.</p>
+
+        <h3>My Daily Schedule</h2>
+        <p>I'm going to tell you how I:
+            <!--Ordered List Tag-->
+            <ol>
+                <li>...I am learning more about Web Dev.</li>
+                <!--br is line break-->
+                <li>...I plan out my Schedule.</li>
+                <li>...I use resources from 
+                    <abbr title="Mozzila Developer Network">
+                        <!--Anchor tag. It is having absolute address (Directly going to a webpage hosted over Internet)-->
+                        <a href="https://developer.mozilla.org/">MDN</a>
+                    </abbr>.
+                </li>
+            </ol>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <!--em and strong are inline elements-->
+        <p>I've been working hard and <em>really need a getaway</em></p>
+        <p>I live in Mumbai so most probably I would visit a beach.</p>
+
+        <h3>Places I'd like to visit</h2>
+        <!--Unordered List Tag-->
+            <ul>
+            <!--List tag-->
+            <li>
+                <p>I've heard good things about the Marine Drive.</p>
+            </li>
+            <li>    
+                <p>I've also heard good things about going here:</p>
+                <address>
+                    Marine Drive, <br>
+                    South Bombay, <br>
+                    Mumbai, Maharashtra, India 400 001. 
+                </address>
+            </li>
+        </ul>
+    
+
+        <!--TODO: Add more places-->
+        
+        <h3>Places I want to avoid</h2>
+        <!--Description List-->
+        <dl>
+            <!--Description Term-->
+            <dt>North District</dt>
+            <!--Description Detail-->
+            <dd>I hear this is very much <strong>crowded</strong> </dd>
+
+            <dt>Western Line</dt>
+            <dd>This is also crowded.</dd>
+
+            <dt>Central Line</dt>
+            <dd>These are the most crowded.</dd>
+        </dl>
+    </section>
+
+        <hr>
+        <!--hr is Horizontal Row-->
+        <!--&lt;&gt;&copy; are HTML entities-->
+        <!--Relative reference (Link to a file on our server or local system)-->
+        &lt;&lt;&lt; &copy; <a href="about.html">Tushar Naik</a> &gt;&gt;&gt;
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </body>
+
+</html>
